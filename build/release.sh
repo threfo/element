@@ -13,11 +13,11 @@ then
   echo "Releasing $VERSION ..."
 
   # build
-  # VERSION=$VERSION npm run dist
-  VERSION=$VERSION
+  VERSION=$VERSION npm run dist
+  # VERSION=$VERSION
 
-  # ssr test
-  node test/ssr/require.test.js
+  # # ssr test
+  # node test/ssr/require.test.js
 
   # publish theme
   # echo "Releasing theme-chalk $VERSION ..."
