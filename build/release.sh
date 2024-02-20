@@ -13,7 +13,8 @@ then
   echo "Releasing $VERSION ..."
 
   # build
-  VERSION=$VERSION npm run dist
+  # VERSION=$VERSION npm run dist
+  VERSION=$VERSION
 
   # ssr test
   node test/ssr/require.test.js
